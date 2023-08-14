@@ -10,6 +10,7 @@
             width: 100vw;
         }
 
+
         /*view port adjust two solution
         1.main{
             width : 98vw;
@@ -20,6 +21,19 @@
         */
 
 
+        ::-webkit-scrollbar {
+            width: 10px;
+            height: 10px;
+            background-color: aqua;
+        }
+
+
+        /*
+        ////////////////////////////////////////////
+        ::-webkit-scrollbar-thumb{
+        background-color: yellow;
+        }
+         */
 
         main > section {
             height: 50vh;
@@ -29,32 +43,29 @@
         main > section:first-child {
             background-color: red;
             position: absolute;
-            top: 0px;
-            left: 0px;
-
+            top: 0;
+            left: 0;
         }
 
         main > section:nth-child(2) {
             background-color: green;
             position: absolute;
-            top: 0px;
-            right: 0px;
-
+            top: 0;
+            right: 0;
         }
 
         main > section:nth-child(3) {
             background-color: orange;
             position: absolute;
-            bottom: 0px;
-            left: 0px;
-
+            bottom: 0;
+            left: 0;
         }
 
         main > section:nth-child(4) {
             background-color: deeppink;
             position: absolute;
-            bottom: 0px;
-            right: 0px;
+            bottom: 0;
+            right: 0;
         }
 
         main > div:first-of-type {
@@ -62,12 +73,11 @@
             background-color: white;
             width: 200px;
             height: 200px;
-            top: 0px;
-            left: 0px;
-            bottom: 0px;
-            right: 0px;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
             margin: auto;
-
         }
 
         main > div:first-of-type > div {
@@ -76,10 +86,10 @@
             width: 50%;
             height: 50%;
             border-radius: 100%;
-            left: 0px;
-            right: 0px;
-            top: 0px;
-            bottom: 0px;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
             margin: auto;
         }
 
@@ -88,7 +98,6 @@
             background-color: white;
             width: 100px;
             height: 100px;
-
         }
 
         main > div:nth-of-type(2) {
@@ -100,33 +109,29 @@
         main > div:nth-of-type(3) {
             top: 0;
             right: 0;
-            border-bottom-left-radius :100%;
-
+            border-bottom-left-radius: 100%;
         }
 
         main > div:nth-of-type(4) {
             bottom: 0;
             left: 0;
             border-top-right-radius: 100%;
-
         }
 
         main > div:nth-of-type(5) {
             bottom: 0;
             right: 0;
             border-top-left-radius: 100%;
-
         }
 
-        main>div:nth-of-type(6),main>div:nth-of-type(7){
+        main > div:nth-of-type(6), main > div:nth-of-type(7) {
             position: absolute;
             width: 100px;
             height: 100px;
             background-color: white;
-
         }
 
-        main>div:nth-of-type(6){
+        main > div:nth-of-type(6) {
             top: 0;
             bottom: 100%;
             left: 0;
@@ -135,36 +140,71 @@
             border-radius: 50%;
         }
 
-        main>div:nth-of-type(7){
-            top:100%;
+        main > div:nth-of-type(7) {
+            top: 100%;
             bottom: 0;
             left: 0;
             right: 0;
             margin: auto;
+            border-radius: 50%;;
+        }
 
-            border-radius: 50%;
-        ;
+        main > section > div:first-of-type {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
 
-
+        main > section >div> div:first-of-type{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            background-color: red;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
 
         }
 
-
-
     </style>
-
 </head>
 <body>
 
 <main>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div></div>
 
-    <!--    Center Box-->
+        </div>
+    </section>
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div></div>
+        </div>
+    </section>
+
+    <!--Center Box-->
     <div>
-        <!--        Center Circle-->
+        <!--Center Circle-->
         <div></div>
     </div>
 
@@ -174,7 +214,7 @@
     <div></div>
     <div></div>
 
-<!--Half Circle for middle-->
+    <!--Half Circle for middle-->
     <div></div>
     <div></div>
 </main>
