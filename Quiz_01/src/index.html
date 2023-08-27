@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz-01</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+    <style>
+        section {
+            border: 1px red solid;
+        }
+
+        section > div {
+            border: green 1px solid;
+            width: calc(100% / 5);
+            height: 100px;
+        }
+
+        section > div:nth-child(1) {
+            position: relative;
+            margin-left: 0;
+            margin-top: 0;
+        }
+
+        section > div:nth-child(2) {
+            position: absolute;
+            top: 0;
+            margin-left: calc(100% /5);
+        }
+
+        section > div:nth-child(3) {
+            position: absolute;
+            top: 0;
+            margin-left: calc(100% /2.5);
+
+
+
+        }
+
+        section > div:nth-child(4) {
+            position: absolute;
+            top: 0;
+            right: calc(100% /5);
+
+
+
+        }
+
+        section > div:nth-child(5) {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div>A</div>
+    <div>B</div>
+    <div>C</div>
+    <div>D</div>
+    <div>E</div>
+</section>
+
+</body>
+</html>
