@@ -9,50 +9,39 @@
     <link rel="stylesheet" href="assets/normalize.css">
     <style>
         section {
-            border: 1px red solid;
+            border: 3px red solid;
+            display: flex;
+            flex-direction: row;
+            height: 900px;
+            align-items: center;
+            justify-content: space-around;
+            /*flex-wrap: wrap;*/
         }
 
         section > div {
             border: green 1px solid;
-            width: calc(100% / 5);
             height: 100px;
+            width: 150px;
+        }
+        section>div:nth-child(1){
+
+            background-color: green;
         }
 
-        section > div:nth-child(1) {
-            position: relative;
-            margin-left: 0;
-            margin-top: 0;
+        section>div:nth-child(2){
+
+            background-color: blueviolet;
+            flex-basis: 200px;
         }
 
-        section > div:nth-child(2) {
-            position: absolute;
-            top: 0;
-            margin-left: calc(100% /5);
+        section>div:nth-child(3){
+            background-color: cornflowerblue;
         }
 
-        section > div:nth-child(3) {
-            position: absolute;
-            top: 0;
-            margin-left: calc(100% /2.5);
-
-
-
+        section>div:nth-child(4){
+            background-color: chocolate;
         }
 
-        section > div:nth-child(4) {
-            position: absolute;
-            top: 0;
-            right: calc(100% /5);
-
-
-
-        }
-
-        section > div:nth-child(5) {
-            position: absolute;
-            right: 0;
-            top: 0;
-        }
     </style>
 </head>
 <body>
@@ -61,7 +50,7 @@
     <div>B</div>
     <div>C</div>
     <div>D</div>
-    <div>E</div>
+
 </section>
 
 </body>
