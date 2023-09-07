@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/CSS_new_layout/CSS_new_layout.iml" filepath="$PROJECT_DIR$/CSS_new_layout/CSS_new_layout.iml" />
       <module fileurl="file://$PROJECT_DIR$/Case_02/Case_02.iml" filepath="$PROJECT_DIR$/Case_02/Case_02.iml" />
       <module fileurl="file://$PROJECT_DIR$/Case_03/Case_03.iml" filepath="$PROJECT_DIR$/Case_03/Case_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Class_05/Class_05.iml" filepath="$PROJECT_DIR$/Class_05/Class_05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Class_06/Class_06.iml" filepath="$PROJECT_DIR$/Class_06/Class_06.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/MyPractice.iml" filepath="$PROJECT_DIR$/.idea/MyPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/PRF/PRF.iml" filepath="$PROJECT_DIR$/PRF/PRF.iml" />
       <module fileurl="file://$PROJECT_DIR$/Quiz_03/QUIZ_03.iml" filepath="$PROJECT_DIR$/Quiz_03/QUIZ_03.iml" />
@@ -12,6 +14,8 @@
       <module fileurl="file://$PROJECT_DIR$/Quiz_05/Quiz_05.iml" filepath="$PROJECT_DIR$/Quiz_05/Quiz_05.iml" />
       <module fileurl="file://$PROJECT_DIR$/Quiz_06/Quiz_06.iml" filepath="$PROJECT_DIR$/Quiz_06/Quiz_06.iml" />
       <module fileurl="file://$PROJECT_DIR$/Web_Page/Web_Page.iml" filepath="$PROJECT_DIR$/Web_Page/Web_Page.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class_02/class_02.iml" filepath="$PROJECT_DIR$/class_02/class_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class_04/class_04.iml" filepath="$PROJECT_DIR$/class_04/class_04.iml" />
     </modules>
   </component>
 </project>
