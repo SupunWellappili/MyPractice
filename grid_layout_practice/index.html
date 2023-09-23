@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid-Layout</title>
+    <style>
+        section {
+
+            width: 1200px;
+            height: 700px;
+            border: 2px solid blue;
+            display: grid;
+            /*grid-template-rows: 1fr 1fr 1fr 1fr;*/
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: repeat(2,1fr);
+            /*gap: 3px 5px; alternative*/
+            column-gap: 5px;
+            row-gap: 3px;
+
+        }
+
+        section > div {
+            border: solid red 1px;
+        }
+
+
+    </style>
+</head>
+<body>
+<section>
+    <div>A</div>
+    <div>B</div>
+    <div>C</div>
+    <div>D</div>
+    <div>E</div>
+    <div>F</div>
+    <div>G</div>
+    <div>H</div>
+
+</section>
+
+</body>
+</html>
